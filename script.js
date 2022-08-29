@@ -18,7 +18,7 @@
         document.getElementById("player-artist").innerHTML = '🎧 Listening to '+data.item.name + ' by '+data.item.artists[0].name;
         setTimeout(function() {
             location.reload();
-          }, 180000);
+          }, 240000);
       });
   }
 
